@@ -8,7 +8,6 @@
 
 close all ; clear all;
 
-addpath('./functions');
 % load model 
 load('A123CETmodel.mat');
 
