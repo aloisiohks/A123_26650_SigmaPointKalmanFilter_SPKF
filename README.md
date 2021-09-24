@@ -1,4 +1,6 @@
 # A123_26650_SPKF
+<a href="https://zenodo.org/badge/latestdoi/397448887"><img src="https://zenodo.org/badge/397448887.svg" alt="DOI"></a>
+
 This repository contains the sigma-point Kalman filter (SPKF) algorithm for state of charge and temperature estimation for the A123 26650 m1b cell developed and used in the following publications
 
 <a href="https://mountainscholar.org/handle/10976/167269">Kawakita de Souza, A. (2020). Advanced Predictive Control Strategies for Lithium-Ion Battery Management Using a Coupled Electro-Thermal Model [Master thesis, University of Colorado, Colorado Springs]. ProQuest Dissertations Publishing.</a>
