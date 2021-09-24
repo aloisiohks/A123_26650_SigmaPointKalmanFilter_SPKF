@@ -1,4 +1,4 @@
-# A123_26650_SPKF
+# SOC and Temperature Estimation Using Sigma Point Kalman Filter and a Coupled Electro-Thermal Model
 <a href="https://zenodo.org/badge/latestdoi/397448887"><img src="https://zenodo.org/badge/397448887.svg" alt="DOI"></a>
 
 This repository contains the sigma-point Kalman filter (SPKF) algorithm for state of charge and temperature estimation for the A123 26650 m1b cell developed and used in the following publications
