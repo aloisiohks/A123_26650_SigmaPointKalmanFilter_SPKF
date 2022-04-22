@@ -8,11 +8,15 @@
 
 close all ; clear all;
 
+addpath(genpath('./'));
+
 % load model 
 load('A123CETmodel.mat');
 
-% load lab data of cell discharging using UDDS drive cycles
-load('Dataset'); % loads data
+% load lab data 
+load('Dataset'); % loads UDDS lab data
+load('A004_DYN_P30_FSAE'); % loads lab data for a discharge profile of a FSAE electric racing car completing the endurance test
+
 Tc0 = 40;        % Tc initial guess
 Ts0 = 40;        % Ts initial guess
 SOC0 = 0.9;      % SOC initial guess
@@ -20,7 +24,7 @@ SOC0 = 0.9;      % SOC initial guess
 
 % Covariance values
 SigmaX0 = diag([1e-5 1e-4 .5e-2 1e-1 1e-1]); % uncertainty of initial state
-SigmaV = diag([1e-1 2e-5]); % Uncertainty of voltage and surf. temp. sensor, output equation
+SigmaV = diag([1e-1 2e-3]); % Uncertainty of voltage and surf. temp. sensor, output equation
 SigmaW = diag([1e-5 1e-4 1e-4 1e-2 1e-3]); % Uncertainty of current and amb. temp. sensor, state equation
 
 
